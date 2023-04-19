@@ -1,0 +1,243 @@
+<html>
+<head>
+<style>
+body {
+/*   font-family: "TCCC-UnityText-Regular", "TCCC-UnityText", sans-serif; */
+/*   font-family: 'Brandon Grotesque Regular', sans-serif; */
+/*   font-family: 'Brandon Grotesque Medium', sans-serif; */
+/*   font-family: 'Brandon Grotesque Black', sans-serif; */
+  font-family: "Segoe UI", Arial, sans-serif!important;
+}
+
+/* Set up a grid for each row  */
+.grid {
+  max-width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-gap: 2em;
+  color: #222;
+  padding: 1em 0;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  line-height: 1.7;
+  font-size: 17px;
+}
+
+.wrapper { 
+/*   padding: 0 1em; */
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 0.5em;
+  }
+}
+
+/* Basic Card */
+.basic-card {
+  width: 100%;
+  position: block;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  -o-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.basic-card .card-content {
+  padding: 30px;
+}
+
+.basic-card .card-title {
+  font-size: 32px;
+  font-weight: bolder;
+/*   font-family: "Open Sans", sans-serif; */
+}
+
+.basic-card .card-text {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.main-card {
+  margin-top: 30px;
+}
+  
+.card-text {
+  line-height: 1.7;
+  font-size: 18px;
+  text-align: justify;
+/*   font-family: "TCCC-UnityText-Regular", "TCCC-UnityText", sans-serif; */
+    font-style: normal;
+    color: #333333;
+}
+
+.card-title {
+  font-size: 32px;
+  font-weight: bolder;
+  color: #fb6056;
+/*   font-family: "TCCC-UnityText-Regular", "TCCC-UnityText", sans-serif; */
+}
+
+.card-subtitle {
+  font-size: 24px;
+  font-weight: bolder;
+  margin-bottom: 25px;
+  color: #333333;
+/*   font-family: "TCCC-UnityText-Regular", "TCCC-UnityText", sans-serif; */
+}
+
+.basic-card-aqua {
+/*   background-image: linear-gradient(to bottom right, #00bfad, #99a3d4); */
+  background-image: linear-gradient(to bottom right, #d6d64f, #fb6056);
+}
+
+.basic-card-aqua .card-content {
+  color: #fff;
+/*   color: #333333; */
+/*   font-family: "TCCC-UnityText-Regular", "TCCC-UnityText", sans-serif; */
+}
+
+.card-category-1 > div {
+  margin: 10px 5px;
+  text-align: left;
+  margin: auto;
+  border-radius: 5px;
+}
+
+/* end style */
+  
+#shopify-section-toolbar {
+  display: none!important;
+}
+
+#shopify-section-header {
+  display: none!important;
+}
+
+#shopify-section-footer {
+  display: none!important;
+}    
+
+/* start menu style */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 12vh;
+  min-width: 100%;
+  z-index: 10;
+/*   background: #fb6056; */
+/*   margin-bottom: 100px; */
+}
+
+#logo-img {
+  width:300px;
+} 
+
+.navigation .logo{
+/*   margin-left: 20px; */
+}
+
+/* .navigation .menu-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
+  margin: auto 20px auto 0;
+} */
+
+/* .navigation .menu-list li a {
+  color: #b1d4e0;
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 1s ease, border 1s ease;
+  text-decoration: none !important;
+}   */
+  
+/* end menu style */  
+
+@media only screen and (max-width: 600px){
+	.grid {
+		grid-template-columns: 1fr !important;
+		grid-gap: 0.5em !important;
+	}
+}
+  
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+<div class="page-width container page-content" style="padding: 0 40px;">
+<div class="reading-width">
+  <div class="shopify-section">
+    <header>
+		<nav class="navigation">
+			<!-- Logo -->
+			<div class="logo">
+				<img id="logo-img" src="https://i.postimg.cc/RV7mD3tg/douzokorea.png">
+			</div>
+		</nav>
+	</header>
+  </div>
+  <div class="rte clearfix">
+    <div class="main-card">
+<div><span class="card-title">About Us</span></div>
+<div class="card-text"><span>Douzo Korea was founded after the founder received a request from a friend to buy SPAO x Pokemon sweaters from South Korea. Due to high demand from fellow Redditors, the founder created a website in less than 6 hours to handle payments and deliveries, and officially launching Douzo Korea. The company has since expanded to cater to the growing demand for authentic Korean products worldwide. </span></div>
+</div>
+<br /><br />
+<div class="wrapper"><span class="card-title"><span>Douzo Korea</span>'s services include:</span>
+<div class="grid">
+<div class="card-category-1">
+<div class="basic-card basic-card-aqua">
+<div class="card-content">
+<div class="card-subtitle">
+<p>Custom Orders</p>
+</div>
+<p>For individuals interested in buying a product they've seen on another website or in a Korean drama, we offer a service where they can request us to purchase the item on their behalf.</p>
+</div>
+</div>
+</div>
+<div class="card-category-1">
+<div class="basic-card basic-card-aqua">
+<div class="card-content">
+<div class="card-subtitle">
+<p>Bulk Orders</p>
+</div>
+<p>We offer discounted rates on large orders for customers and foreign companies to help reduce their logistics costs. Perfect for groups, start-ups, and bulk buyers.</p>
+</div>
+</div>
+</div>
+<div class="card-category-1">
+<div class="basic-card basic-card-aqua">
+<div class="card-content">
+<div class="card-subtitle">
+<p>Dropshipping</p>
+</div>
+<p>Dropshipping enables sellers to promote and sell Korean products locally without holding inventory, making it perfect for international dropshippers with no minimum purchase.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br /><br />
+<p class="card-text">Initially, <span>Douzo Korea</span> had only one person handling orders, but as the business grew, the team expanded to include more staff. Today, <span>Douzo Korea</span> has multiple teams dedicated to different roles, from the IT department to the Warehouse crew to the Customer Service team.</p>
+<p class="card-text">We're committed to providing easy access to the latest Korean products at the best prices for friends around the world. Our expertise in logistics and sourcing authentic products directly from suppliers, making purchasing a seamless and enjoyable experience for you.</p>
+<div class="main-card"></div>
+  </div>
+</div>
+
+<!-- <link href="https://fonts.cdnfonts.com/css/brandon-grotesque-regular" rel="stylesheet">               -->
+</div>
+<div style="padding-bottom: 1.875rem; text-align: center;">© 2023 Duozo Korea</div>
+</body>
+</html>
